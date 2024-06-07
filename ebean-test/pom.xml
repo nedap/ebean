@@ -4,7 +4,7 @@
   <parent>
     <artifactId>ebean-parent</artifactId>
     <groupId>io.ebean</groupId>
-    <version>14.3.0</version>
+    <version>14.3.0-nedap</version>
   </parent>
 
   <name>ebean test</name>
@@ -33,20 +33,20 @@
     <dependency>
       <groupId>io.ebean</groupId>
       <artifactId>ebean-platform-h2</artifactId>
-      <version>14.3.0</version>
+      <version>14.3.0-nedap</version>
     </dependency>
 
     <dependency>
       <groupId>io.ebean</groupId>
       <artifactId>ebean-core</artifactId>
-      <version>14.3.0</version>
+      <version>14.3.0-nedap</version>
       <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>io.ebean</groupId>
       <artifactId>ebean-ddl-generator</artifactId>
-      <version>14.3.0</version>
+      <version>14.3.0-nedap</version>
     </dependency>
 
     <dependency>
@@ -88,7 +88,7 @@
     </dependency>
 
     <!-- Including JAXB for DB Migration generation with Java 11+ -->
-    <!-- JAVAX-DEPENDENCY-START ___
+    <!-- JAVAX-DEPENDENCY-START -->
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
@@ -100,8 +100,8 @@
       <version>1.2.1</version>
       <scope>provided</scope>
     </dependency>
-    ____ JAVAX-DEPENDENCY-END -->
-    <!-- JAKARTA-DEPENDENCY-START -->
+    <!-- JAVAX-DEPENDENCY-END -->
+    <!-- JAKARTA-DEPENDENCY-START ___
     <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
@@ -113,7 +113,7 @@
       <version>4.0.3</version>
       <scope>runtime</scope>
     </dependency>
-    <!-- JAKARTA-DEPENDENCY-END -->
+    ____ JAKARTA-DEPENDENCY-END -->
 
     <!-- Not strictly required but bring in H2 Driver because we use it so much -->
     <dependency>
@@ -149,14 +149,14 @@
     <dependency>
       <groupId>io.ebean</groupId>
       <artifactId>ebean-jackson-mapper</artifactId>
-      <version>14.3.0</version>
+      <version>14.3.0-nedap</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>io.ebean</groupId>
       <artifactId>ebean-platform-all</artifactId>
-      <version>14.3.0</version>
+      <version>14.3.0-nedap</version>
       <scope>test</scope>
     </dependency>
 

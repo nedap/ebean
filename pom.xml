@@ -9,7 +9,7 @@
 
   <groupId>io.ebean</groupId>
   <artifactId>ebean-parent</artifactId>
-  <version>14.3.0</version>
+  <version>14.3.0-nedap</version>
   <packaging>pom</packaging>
 
   <name>ebean parent</name>
@@ -58,6 +58,18 @@
     <surefire.useModulePath>false</surefire.useModulePath>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>nedap.jfrog.io</id>
+      <url>https://nedap.jfrog.io/nedap/libs-releases-local</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>nedap-snapshots.jfrog.io</id>
+      <url>https://nedap.jfrog.io/nedap/libs-snapshots-local</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
 
     <dependency>

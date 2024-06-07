@@ -17,8 +17,8 @@ import io.ebeaninternal.server.core.ServiceUtil;
 import io.ebeaninternal.server.core.bootup.BootupClasses;
 import io.ebeaninternal.server.deploy.meta.DeployBeanProperty;
 
-import jakarta.persistence.AttributeConverter;
-import jakarta.persistence.EnumType;
+import javax.persistence.AttributeConverter;
+import javax.persistence.EnumType;
 import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

@@ -1,6 +1,6 @@
 package io.ebean.event;
 
-import jakarta.servlet.ServletContextEvent;
+import javax.servlet.ServletContextEvent;
 
 /**
  * Deprecated for removal - no intention to replace. Create your own copy of this
@@ -19,7 +19,7 @@ import jakarta.servlet.ServletContextEvent;
  * </p>
  */
 @Deprecated(forRemoval = true)
-public class ServletContextListener implements jakarta.servlet.ServletContextListener {
+public class ServletContextListener implements javax.servlet.ServletContextListener {
 
   /**
    * The servlet container is stopping.

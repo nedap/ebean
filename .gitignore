@@ -19,3 +19,4 @@ profiling/
 *.iws
 .idea/
 *uuid.state
+pom.xml.versionsBackup

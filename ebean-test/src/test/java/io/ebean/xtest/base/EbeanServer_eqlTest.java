@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.tests.model.basic.Customer;
 import org.tests.model.basic.ResetBasicData;
 
-import jakarta.persistence.PersistenceException;
+import javax.persistence.PersistenceException;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;

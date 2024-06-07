@@ -5,12 +5,12 @@ interface Constants {
   String AT_GENERATED = "@io.ebean.typequery.Generated(\"io.ebean.querybean.kotlin-generator\")";
   String AT_TYPEQUERYBEAN = "@io.ebean.typequery.TypeQueryBean(\"v1\")";
 
-  String MAPPED_SUPERCLASS = "jakarta.persistence.MappedSuperclass";
-  String DISCRIMINATOR_VALUE = "jakarta.persistence.DiscriminatorValue";
-  String INHERITANCE = "jakarta.persistence.Inheritance";
-  String ENTITY = "jakarta.persistence.Entity";
-  String EMBEDDABLE = "jakarta.persistence.Embeddable";
-  String CONVERTER = "jakarta.persistence.Converter";
+  String MAPPED_SUPERCLASS = "javax.persistence.MappedSuperclass";
+  String DISCRIMINATOR_VALUE = "javax.persistence.DiscriminatorValue";
+  String INHERITANCE = "javax.persistence.Inheritance";
+  String ENTITY = "javax.persistence.Entity";
+  String EMBEDDABLE = "javax.persistence.Embeddable";
+  String CONVERTER = "javax.persistence.Converter";
   String EBEAN_COMPONENT = "io.ebean.annotation.EbeanComponent";
 
   String DBARRAY = "io.ebean.annotation.DbArray";

@@ -21,8 +21,8 @@ import io.ebeaninternal.server.idgen.UuidV1IdGenerator;
 import io.ebeaninternal.server.idgen.UuidV1RndIdGenerator;
 import io.ebeaninternal.server.idgen.UuidV4IdGenerator;
 import io.ebeaninternal.server.rawsql.SpiRawSql;
-import jakarta.persistence.Entity;
-import jakarta.persistence.MappedSuperclass;
+import javax.persistence.Entity;
+import javax.persistence.MappedSuperclass;
 
 import java.lang.reflect.Field;
 import java.util.*;

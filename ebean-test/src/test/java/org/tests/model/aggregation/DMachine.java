@@ -2,7 +2,7 @@ package org.tests.model.aggregation;
 
 import io.ebean.Model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity

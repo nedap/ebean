@@ -14,7 +14,7 @@ import io.ebeaninternal.server.core.RelationalQueryRequest;
 import io.ebeaninternal.server.core.RowReader;
 import io.ebeaninternal.server.persist.Binder;
 
-import jakarta.persistence.PersistenceException;
+import javax.persistence.PersistenceException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
