@@ -34,7 +34,9 @@ final class DefaultBeanLoader {
   }
 
   void loadMany(LoadManyRequest loadRequest) {
-    executeQuery(loadRequest, loadRequest.createQuery(server));
+    SpiQuery<?> query = loadRequest.createQuery(server);
+    query.usingTransaction(loadRequest.transaction());
+    executeQuery(loadRequest, query);
     loadRequest.postLoad();
   }
 
